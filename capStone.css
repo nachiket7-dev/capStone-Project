@@ -1,0 +1,163 @@
+body{
+    width: 100%;
+    background-color: black;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    position: fixed;
+}
+.nav-main{
+    cursor: pointer; 
+}
+nav img{
+    height: 50px;
+    width: 170px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.nav-item{
+    margin-top: 10px;
+}
+.nav-item a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.nav-item a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    padding: 15px; 
+}
+h1{
+    color: white;
+    font-size: 120px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.body-main img{
+    border-radius: 25px;
+    height: 94vh;
+    width: 90vw;
+    margin-left: 67px;
+}
+hr{
+    width: 95vw;
+    border: 0.1px solid gray;
+    border-radius: 3px;
+}
+.body-content{
+    display: flex;  
+}
+.body-content h2,p{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.body-content img{
+    width: 30vw;
+    margin-top: 35px;
+    padding: 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.about-me{
+    color: white;
+    margin-left: 80px;
+}
+.about-details{
+    color: white;
+    display: flex;
+    margin-right: 120px;
+    gap: 48px;
+}
+.detail-title{
+    font-size: 20px;
+}
+.more-about{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.more-about h2{
+    font-size: 50px;
+}
+.more-about p{
+    font-size: 20px;
+}
+.more-about button{
+    background-color: #C11D1D;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.more-about button:hover{
+    border: 2px solid lightslategray;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.review{
+    color: white;
+    text-align: center;
+}
+.description{
+    color: white;
+}
+.description img{
+    height: 94vh;
+    width: 87vw;
+    margin-left: 67px;
+}
+.description1{
+    width: 60vw;
+    font-size: 40px;
+    margin-left: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer h2{
+    color: white;
+    margin-left: 70px;
+}
+footer button{
+    background-color: black;
+    border: 1px solid lightslategray; 
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 30px;
+}
+footer button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.work-details{
+    width: 40vw;
+    font-size: 24px;
+    margin-left: 870px;
+}
