@@ -73,21 +73,24 @@ hr{
     border-radius: 3px;
     
 }
+.body-content{
+    width: 90vw;
+    margin-left: 65px;
+}
 .body-content1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-top: 50px;
+    justify-content: space-between;
 }
 .body-content2{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .body-content3{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .body-content h2,p{
     color: white;
@@ -105,9 +108,9 @@ hr{
     font-size: 17px;
 }
 .body-content img{
-    width: 30vw;
+    width: 27vw;
     margin-top: 35px;
-    
+    padding: 20px;    
 }
 .body-content img:hover{
     transform: scale(1.1);
