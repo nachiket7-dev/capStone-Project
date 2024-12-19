@@ -7,7 +7,6 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 95vw;
-    
 }
 .nav-main{
     cursor: pointer;    
@@ -33,7 +32,6 @@ nav{
 }
 .nav-item{
     margin-top: 10px;
-    
 }
 .nav-item a:hover{
     background-color: white;
@@ -76,7 +74,8 @@ hr{
     
 }
 .body-content{
-    display: flex;  
+    display: flex;
+    columns: reverse;
 }
 .body-content h2,p{
     color: white;
