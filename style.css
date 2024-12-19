@@ -195,8 +195,10 @@ hr{
     font-weight: lighter;
     font-style: normal;
     line-height: 68px;
+    letter-spacing: -0.02em;
     width: 60vw;
     font-size: 44px;
+    margin-left: 60px;
 }
 .description img{
     height: 94vh;
