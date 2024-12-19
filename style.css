@@ -76,14 +76,18 @@ hr{
 .body-content1{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 .body-content2{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .body-content3{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .body-content h2,p{
     color: white;
@@ -103,7 +107,7 @@ hr{
 .body-content img{
     width: 30vw;
     margin-top: 35px;
-    padding: 20px;
+    
 }
 .body-content img:hover{
     transform: scale(1.1);
