@@ -196,15 +196,17 @@ hr{
     margin-left: 67px;
 }
 .work-details{
-    width: 90%;
+    width: 90vw;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 .empty{
-    width: 100%;
+    width: 50vw;
 }
-.detai-para{
-    width: 30%;
+.div-para{
+    width: 50vw;
+    margin-left: 150px;
+    padding: 20px;
 
 }
 footer{
@@ -224,11 +226,11 @@ footer p{
 }
 footer button{
     background-color: black;
-    border: 1px solid lightslategray; 
+    border: 0.5px solid lightslategray; 
     color: white;
     font-weight: bold;
     border-radius: 2px;
-    border-radius: 8px;
+    border-radius: 6px;
     padding: 12px 24px;
     font-weight: bold;
     cursor: pointer;
@@ -239,6 +241,11 @@ footer button:hover{
     color: black;
     transform: scale(1.1);
     transition: 0.5s;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .reviews {
     display: flex;
