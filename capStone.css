@@ -7,23 +7,38 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 95vw;
+    
 }
 .nav-main{
-    cursor: pointer; 
+    cursor: pointer;    
+    margin-left: 50px;
+    margin-top: 5px;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    width: 141px;
+    height: 29px;
+    gap: 0px;
+    opacity: 0px;   
 }
-nav img{
-    height: 50px;
-    width: 170px;
-    margin-left: 40px;
-    margin-top: 10px;
+.nav-main:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 .nav-item{
     margin-top: 10px;
+    
 }
 .nav-item a:hover{
     background-color: white;
     color: black;
-    border-radius: 8px;
+    border-radius: 5px;
     transform: scale(1.1);
     transition: 0.5s;
 }
@@ -32,15 +47,20 @@ nav img{
     font-size: 30px;
     text-decoration: none;
     justify-content: space-between;
-    font-family: Arial, sans-serif;
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     padding: 15px; 
 }
 h1{
     color: white;
     font-size: 120px;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
     font-weight: 500;
+    font-style: normal;
     margin-top: 100px;
 }
 .body-main img{
@@ -50,22 +70,36 @@ h1{
     margin-left: 67px;
 }
 hr{
-    width: 95vw;
+    width: 95%;
     border: 0.1px solid gray;
     border-radius: 3px;
+    
 }
 .body-content{
     display: flex;  
 }
 .body-content h2,p{
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
+    font-family: Inria Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.body-content p{
+    opacity: 60%;
+    font-size: 17px;
 }
 .body-content img{
     width: 30vw;
     margin-top: 35px;
     padding: 20px;
+}
+.body-content img:hover{
+    transform: scale(1.1);
 }
 .about{
     display: flex;
@@ -75,6 +109,10 @@ hr{
 .about-me{
     color: white;
     margin-left: 80px;
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 .about-details{
     color: white;
@@ -82,8 +120,16 @@ hr{
     margin-right: 120px;
     gap: 48px;
 }
+.about-details p:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    font-weight: bold;
+}
 .detail-title{
     font-size: 20px;
+}
+.detail-content{
+    opacity: 60%;
 }
 .more-about{
     color: white;
@@ -93,9 +139,14 @@ hr{
 }
 .more-about h2{
     font-size: 50px;
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 .more-about p{
     font-size: 20px;
+    text-align: center;
 }
 .more-about button{
     background-color: #C11D1D;
@@ -104,7 +155,6 @@ hr{
     border-radius: 8px;
     padding: 12px 24px;
     font-weight: bold;
-    font-size: 20px;
     cursor: pointer;
 }
 .more-about button:hover{
@@ -115,27 +165,62 @@ hr{
 .Review{
     color: white;
     text-align: center;
+    margin-bottom: 40px;
+}
+.Review h2{
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.display{
+    display: flex;
+    text-align: center;
+}
+.display p{
+    color: white;
 }
 .description{
     color: white;
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    line-height: 68px;
+    width: 60vw;
+    font-size: 44px;
 }
 .description img{
     height: 94vh;
     width: 87vw;
     margin-left: 67px;
 }
-.description1{
-    width: 60vw;
-    font-size: 40px;
-    margin-left: 50px;
+.work-details{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.empty{
+    width: 100%;
+}
+.detai-para{
+    width: 30%;
+
 }
 footer{
     display: flex;
     justify-content: space-between;
 }
-footer h2{
-    color: white;
-    margin-left: 70px;
+footer p{
+    font-family: Red Hat Display;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    opacity: 60%;
 }
 footer button{
     background-color: black;
@@ -155,11 +240,6 @@ footer button:hover{
     transform: scale(1.1);
     transition: 0.5s;
 }
-.work-details{
-    width: 40vw;
-    font-size: 24px;
-    margin-left: 870px;
-}
 .reviews {
     display: flex;
     justify-content: space-between;
@@ -169,12 +249,16 @@ footer button:hover{
     transform: scale(1.1);
     transition: 0.5s;
 }
+.review-title{
+    font-size: 48px;
+}
 .vertical-line {
     width: 1px;         
     height: 80px;       
     background-color: gray;
     margin-top: 20px;
     margin-left: 30px;
+    opacity: 75%;
 }
 .vertical-line p{
     text-align: center;
@@ -186,9 +270,15 @@ footer button:hover{
     border-radius: 16px;
     border:1.5px solid gray;
     padding: 20px;
-    width: 380px;
-    height: 200px;
+    width: 288px;
+    height: 192px;
     margin-right: 25px;
+}
+
+.one{
+    width: 288px;
+    height: 168px;
+    padding: 20px;
 }
 
 .profile {
@@ -222,4 +312,190 @@ footer button:hover{
     margin-left: 40px;
     margin-bottom: 20px;
     font-size: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .nav-main {
+        font-size: 36px;
+    }
+
+    .nav-item a {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 90px;
+        margin-top: 50px;
+    }
+
+    .body-main img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .body-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body-content h2, .body-content p {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .body-content img {
+        width: 80%;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-me {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .about-details {
+        flex-direction: column;
+        margin-right: 0;
+        gap: 20px;
+    }
+
+    .more-about h2 {
+        font-size: 36px;
+    }
+
+    .more-about p {
+        font-size: 16px;
+    }
+
+    .Review h2 {
+        font-size: 36px;
+    }
+
+    .description {
+        font-size: 28px;
+        line-height: 40px;
+        width: 80%;
+    }
+
+    .reviews {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .review {
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-main {
+        font-size: 28px;
+    }
+
+    .nav-item a {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .body-content img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .about-me {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .more-about h2 {
+        font-size: 28px;
+    }
+
+    .more-about button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .review {
+        padding: 10px;
+        height: auto;
+    }
+
+    .review-title {
+        font-size: 36px;
+    }
+
+    .profile img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .review-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-main {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .nav-item a {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .body-content h2, .body-content p {
+        font-size: 16px;
+    }
+
+    .about-me {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .more-about h2 {
+        font-size: 20px;
+    }
+
+    .more-about button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .review {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .review-text {
+        font-size: 14px;
+    }
 }
