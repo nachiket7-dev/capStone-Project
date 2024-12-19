@@ -455,6 +455,7 @@ footer button:hover{
     .body-content {
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
         margin-left: 10px;
         justify-content: space-between;
     }
@@ -519,6 +520,14 @@ footer button:hover{
 
     h1 {
         font-size: 36px;
+    }
+
+    .body-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10px;
+        justify-content: space-between;
     }
 
     .body-content h2, .body-content p {
