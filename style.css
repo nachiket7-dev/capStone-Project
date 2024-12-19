@@ -73,9 +73,17 @@ hr{
     border-radius: 3px;
     
 }
-.body-content{
+.body-content1{
     display: flex;
-    columns: reverse;
+    flex-direction: row;
+}
+.body-content2{
+    display: flex;
+    flex-direction: row;
+}
+.body-content3{
+    display: flex;
+    flex-direction: row;
 }
 .body-content h2,p{
     color: white;
