@@ -100,6 +100,7 @@ hr{
 }
 .body-content img:hover{
     transform: scale(1.1);
+    transition: 0.5s;
 }
 .about{
     display: flex;
@@ -302,10 +303,13 @@ footer button:hover{
     margin-right: 30px;
     
 }
-
+.transparency{
+    opacity: 0.6;
+}
 .profile p {
     margin: 0;
     margin-top: 10px;
+    font-size: 15px;
 }
 
 .review-text {
